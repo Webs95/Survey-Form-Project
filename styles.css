@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Survey Form Project</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="styles.css">
+    </head>
+    <div class="container">
+    <header class="header">
+        <h1 id="title">Registration Form</h1>
+        <p id="description">Please fill out this form with the required information</p>
+        <hr>
+    </header>
+    <body class="body">
+        <fieldset>
+            <form id="survey-form" class="survey-form">
+                <div class="form-group">
+                    <label id="email-label" for="email">Enter Your Email:</label>
+                    <input
+                    type="email"
+                    name="email"
+                    id="email"
+                    placeholder="Введите ваш email"
+                    required
+                    >
+                </div>
+        </fieldset>
+        <fieldset>
+                <div class="form-group">
+                    <label id="name-label" for="name">Enter Your Name:</label>
+                    <input
+                    type="text"
+                    name="name"
+                    id="name"
+                    placeholder="Введите имя"
+                    required
+                    >
+                </div>
+        </fieldset>    
+        <fieldset>    
+                <div class="form-group">
+                    <label id="password-label" for="password">Create a New Password:</label>
+                    <input
+                    type="password"
+                    name="password"
+                    id="password"
+                    placeholder="Придумайте пароль"
+                    pattern="[a-z0-5]{8,}"
+                    required
+                    >
+                </div>
+        </fieldset>    
+        <fieldset>  
+                <div class="form-group">
+                    <label id="age-label" for="age">Input your age (years): </label>
+                    <input
+                    type="number"
+                    name="age"
+                    id="age"
+                    placeholder="Сколько вам лет?"
+                    min="16"
+                    max="100"
+                    required
+                    >
+                </div>           
+        </fieldset>
+        <fieldset>
+                <label id="male-female">Choose your gender:
+                    <input
+                    type="radio"
+                    name="male-female"
+                    class="inline"> Male 
+                </label>
+                <label id="gender">
+                    <input
+                    type="radio"
+                    name="male-female"
+                    class="inline"> Female
+                </label>
+                <label id="gender">
+                    <input
+                    type="radio"
+                    name="male-female"
+                    class="inline"> Other
+                </label>
+        </fieldset>
+        <fieldset>        
+                <label>How did you hear about us?
+                <select id="drop-down" name="referrer">
+                    <option value="">(Select one)</option>
+                    <option value="1">News</option>
+                    <option value="2">Advertising</option>
+                    <option value="3">Friends</option>
+                    <option value="4">Other</option>
+                    </select>
+                </label>
+        </fieldset>             
+        <fieldset>
+                <label id="bio">Tell about yourself:
+                <textarea 
+                name="bio" 
+                rows="4" 
+                cols="45" 
+                placeholder="Расскажите немного о себе и своих интересах...">
+                </textarea>
+                </label>
+        <fieldset>
+                <label id="picture">Upload a profile picture: 
+                    <input 
+                    type="file" 
+                    name="file"></label> 
+        </fieldset>
+        <fieldset>
+                <label id="terms">
+                <input 
+                type="checkbox" 
+                name="terms" 
+                class="inline" 
+                required>
+                I accept the <a target="_blank" href="#">terms and conditions</a>.
+                </label>     
+                </fieldset>                  
+                <hr>
+                <input type="submit" value="Submit">
+                </form>
+        </fieldset>
+        </body>
+        <footer>
+            <p class="sign">Alexandr Semashko 2022</p>
+        </footer>
+        </div>
+</html>
