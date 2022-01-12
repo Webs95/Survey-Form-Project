@@ -1,132 +1,111 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <title>Survey Form Project</title>
-        <meta charset="utf-8">
-        <link rel="stylesheet" type="text/css" href="styles.css">
-    </head>
-    <div class="container">
-    <header class="header">
-        <h1 id="title">Registration Form</h1>
-        <p id="description">Please fill out this form with the required information</p>
-        <hr>
-    </header>
-    <body class="body">
-        <fieldset>
-            <form id="survey-form" class="survey-form">
-                <div class="form-group">
-                    <label id="email-label" for="email">Enter Your Email:</label>
-                    <input
-                    type="email"
-                    name="email"
-                    id="email"
-                    placeholder="Введите ваш email"
-                    required
-                    >
-                </div>
-        </fieldset>
-        <fieldset>
-                <div class="form-group">
-                    <label id="name-label" for="name">Enter Your Name:</label>
-                    <input
-                    type="text"
-                    name="name"
-                    id="name"
-                    placeholder="Введите имя"
-                    required
-                    >
-                </div>
-        </fieldset>    
-        <fieldset>    
-                <div class="form-group">
-                    <label id="password-label" for="password">Create a New Password:</label>
-                    <input
-                    type="password"
-                    name="password"
-                    id="password"
-                    placeholder="Придумайте пароль"
-                    pattern="[a-z0-5]{8,}"
-                    required
-                    >
-                </div>
-        </fieldset>    
-        <fieldset>  
-                <div class="form-group">
-                    <label id="age-label" for="age">Input your age (years): </label>
-                    <input
-                    type="number"
-                    name="age"
-                    id="age"
-                    placeholder="Сколько вам лет?"
-                    min="16"
-                    max="100"
-                    required
-                    >
-                </div>           
-        </fieldset>
-        <fieldset>
-                <label id="male-female">Choose your gender:
-                    <input
-                    type="radio"
-                    name="male-female"
-                    class="inline"> Male 
-                </label>
-                <label id="gender">
-                    <input
-                    type="radio"
-                    name="male-female"
-                    class="inline"> Female
-                </label>
-                <label id="gender">
-                    <input
-                    type="radio"
-                    name="male-female"
-                    class="inline"> Other
-                </label>
-        </fieldset>
-        <fieldset>        
-                <label>How did you hear about us?
-                <select id="drop-down" name="referrer">
-                    <option value="">(Select one)</option>
-                    <option value="1">News</option>
-                    <option value="2">Advertising</option>
-                    <option value="3">Friends</option>
-                    <option value="4">Other</option>
-                    </select>
-                </label>
-        </fieldset>             
-        <fieldset>
-                <label id="bio">Tell about yourself:
-                <textarea 
-                name="bio" 
-                rows="4" 
-                cols="45" 
-                placeholder="Расскажите немного о себе и своих интересах...">
-                </textarea>
-                </label>
-        <fieldset>
-                <label id="picture">Upload a profile picture: 
-                    <input 
-                    type="file" 
-                    name="file"></label> 
-        </fieldset>
-        <fieldset>
-                <label id="terms">
-                <input 
-                type="checkbox" 
-                name="terms" 
-                class="inline" 
-                required>
-                I accept the <a target="_blank" href="#">terms and conditions</a>.
-                </label>     
-                </fieldset>                  
-                <hr>
-                <input type="submit" value="Submit">
-                </form>
-        </fieldset>
-        </body>
-        <footer>
-            <p class="sign">Alexandr Semashko 2022</p>
-        </footer>
-        </div>
-</html>
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+
+a {
+    color: wheat;
+}
+
+a:hover {
+    color: tomato;
+}
+
+h1 {
+    font-size: 33px;
+}
+
+body {
+    background-image: linear-gradient(-20deg, #2b5876 0%, #4e4376 100%);
+    background-image: url(https://i.ibb.co/RcSZJCq/milky-way-gf14bfbb75-1920.jpg);
+    background-size: cover;
+    font-size: 16px;
+}
+
+fieldset {
+    font-size: 18px;
+    border: none;
+    padding: 1rem;
+    margin: -5px -5px; 
+  }
+
+
+h1, p {
+    text-align: center;
+}
+
+label {
+    margin: -3px auto -3px auto;
+}
+
+input, textarea {
+    background-color: rgb(39, 43, 59);
+    color: whitesmoke;
+    border-color: whitesmoke;
+}
+
+textarea {
+    resize: vertical;
+    width: 100%;
+    border-radius: 5px;
+    
+}
+
+.container {
+    max-width: 600px;
+    min-width: 400px;
+    padding: 1.5em;
+    color: rgb(255, 255, 255);
+    width: 40%;
+    height: 50%;
+    margin: 30px auto;
+    background-color: rgba(15, 15, 15, 0.7);
+    border-radius: 10px;
+}
+
+.form-group {
+    margin: -5px -5px;
+}
+
+.sign {
+    font-size: 12px;
+}
+
+#description, .sign {
+    font-style: italic;
+}
+
+#email, #password, #name, #age, #picture {
+    width: 100%;
+    height: 30px;
+    border-radius: 5px;
+    border-color: whitesmoke;
+}
+
+#male-female {
+    width: 100%;
+}
+
+input[type="submit"] {
+    display: block;
+    width: 80%;
+    height: 35px;
+    background-color: rgb(17, 83, 145);
+    border-radius: 5px;
+    color: whitesmoke;
+    border: 1px solid whitesmoke;
+    margin: auto;
+    font-size: 18px;
+    text-shadow: 2px 2px 4px whitesmoke;
+}
+
+input[type="file"] {
+    width: 100%;
+    border-radius: 5px;
+}
+
+
+
+
+
