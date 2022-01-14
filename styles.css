@@ -39,7 +39,7 @@ label {
     margin: -3px auto -3px auto;
 }
 
-input, textarea {
+input, textarea, #drop-down {
     background-color: rgb(39, 43, 59);
     color: whitesmoke;
     border-color: whitesmoke;
