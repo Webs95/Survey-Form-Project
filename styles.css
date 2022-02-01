@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
 
-* {
+html {
     font-family: 'Open Sans', sans-serif;
 }
 
@@ -18,7 +18,7 @@ h1 {
 
 body {
     background-image: linear-gradient(-20deg, #2b5876 0%, #4e4376 100%);
-    background-image: url(https://i.ibb.co/RcSZJCq/milky-way-gf14bfbb75-1920.jpg);
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask2891%26quot%3b)' fill='none'%3e%3crect width='1440' height='560' x='0' y='0' fill='url(%23SvgjsLinearGradient2892)'%3e%3c/rect%3e%3cpath d='M1001.6908894665523 296.3961792838201L853.9185256963996 365.3035641735086 922.8259105860881 513.0759279436613 1070.5982743562408 444.1685430539728z' fill='rgba(0%2c 0%2c 0%2c 0.54)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M1498.7647658728774 222.84237961192898L1384.3844736939382 216.84796250508538 1492.7703487660337 337.2226717908683z' fill='rgba(0%2c 0%2c 0%2c 0.54)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M582.3038908214817 321.4802157059428L481.9410831185726 432.94440596418934 593.4052733768192 533.3072136670984 693.7680810797282 421.8430234088519z' fill='rgba(0%2c 0%2c 0%2c 0.54)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M619.1723636175207 127.71205800141742L679.1247659401514 77.40601932430609 573.689506763169 12.630435178915718z' fill='rgba(0%2c 0%2c 0%2c 0.54)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M1112.2989303131726 275.8078801950589L1021.312316479838 212.0983673127822 957.6028035975613 303.0849811461168 1048.589417430896 366.7944940283935z' fill='rgba(0%2c 0%2c 0%2c 0.54)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M1220.894889173147 308.8219507014228L1048.6728523383804 367.9392228484677 1166.9605004655043 474.44589961260994z' fill='rgba(0%2c 0%2c 0%2c 0.54)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M1243.6087049693235 162.83021236669913L1153.367548782067 99.64267454762229 1180.4211671502467 253.07136855395578z' fill='rgba(0%2c 0%2c 0%2c 0.54)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M1185.5089947598117 96.74296053130587L1081.5876443564864 87.65102047270969 1176.4170547012154 200.6643109346311z' fill='rgba(0%2c 0%2c 0%2c 0.54)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M160.54730510233054 444.4340196706216L335.87058644259315 435.4132532624084 254.547664372998 305.2693730719209z' fill='rgba(0%2c 0%2c 0%2c 0.54)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M652.1836147998763 82.7185390997818L755.0195780582083 128.50405982372592 697.9691355238205-20.117424158550193z' fill='rgba(0%2c 0%2c 0%2c 0.54)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M1131.7563591982082 599.2439050563369L1079.4389202819254 455.50292299015337 988.0153771320247 651.5613439726197z' fill='rgba(0%2c 0%2c 0%2c 0.54)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M841.2798366531322 103.23130742998978L884.2185590354894 53.83595775489243 788.6561733316648 14.125549018905303z' fill='rgba(0%2c 0%2c 0%2c 0.54)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M844.0157902598788 117.4035514978314L763.9119452019754 184.61865834180009 831.1270520459442 264.72250339970344 911.2308971038475 197.50739655573477z' fill='rgba(0%2c 0%2c 0%2c 0.54)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M446.1359560952307 517.2799927594871L358.5440743880256 423.3491995644969 352.20516290024057 604.8718744666921z' fill='rgba(0%2c 0%2c 0%2c 0.54)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M375.61168772586745 496.77096998835356L245.36582922853586 473.8051110097371 222.39997024991942 604.0509695070687 352.645828747251 627.0168284856852z' fill='rgba(0%2c 0%2c 0%2c 0.54)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M379.8920323432513 157.50726967434682L436.8345964591351 210.60706975576946 488.0130145233272 98.6433235412324z' fill='rgba(0%2c 0%2c 0%2c 0.54)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M415.80317046934294 393.30149452148913L471.6786376447885 507.8631795213432 586.2403226446427 451.98771234589765 530.3648554691971 337.42602734604355z' fill='rgba(0%2c 0%2c 0%2c 0.54)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M364.80560966301357 430.38414927231037L260.6399719000158 381.810914666825 316.2323750575282 534.5497870353082z' fill='rgba(0%2c 0%2c 0%2c 0.54)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M657.5509230670333 66.4145183356709L708.544847572783 158.40999337274934 800.5403226098615 107.41606886699952 749.5463981041117 15.420593829921103z' fill='rgba(0%2c 0%2c 0%2c 0.54)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M206.87120867680358 233.6363210831718L143.85943694697886 201.53021976909253 127.2061708407723 312.1009280208692z' fill='rgba(0%2c 0%2c 0%2c 0.54)' class='triangle-float1'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask2891'%3e%3crect width='1440' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3clinearGradient x1='15.28%25' y1='-39.29%25' x2='84.72%25' y2='139.29%25' gradientUnits='userSpaceOnUse' id='SvgjsLinearGradient2892'%3e%3cstop stop-color='%230e2a47' offset='0'%3e%3c/stop%3e%3cstop stop-color='rgba(117%2c 120%2c 186%2c 1)' offset='0.39'%3e%3c/stop%3e%3cstop stop-color='rgba(118%2c 146%2c 174%2c 1)' offset='0.5'%3e%3c/stop%3e%3cstop stop-color='rgba(88%2c 133%2c 179%2c 1)' offset='0.71'%3e%3c/stop%3e%3c/linearGradient%3e%3cstyle%3e %40keyframes float1 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-10px%2c 0)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float1 %7b animation: float1 5s infinite%3b %7d %40keyframes float2 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-5px%2c -5px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float2 %7b animation: float2 4s infinite%3b %7d %40keyframes float3 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(0%2c -10px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float3 %7b animation: float3 6s infinite%3b %7d %3c/style%3e%3c/defs%3e%3c/svg%3e");
     background-size: cover;
     font-size: 16px;
 }
@@ -68,9 +68,6 @@ textarea {
     margin: -5px -5px;
 }
 
-.sign {
-    font-size: 12px;
-}
 
 #description, .sign {
     font-style: italic;
@@ -98,6 +95,14 @@ input[type="submit"] {
     margin: auto;
     font-size: 18px;
     text-shadow: 2px 2px 4px whitesmoke;
+    transition: 1s;
+}
+
+input[type="submit"]:hover {
+  width: 83%;
+  cursor: pointer;
+  background-color: rgb(45, 103, 145);
+  transition: 1s;
 }
 
 input[type="file"] {
